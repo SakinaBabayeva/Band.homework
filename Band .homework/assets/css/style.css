@@ -1,0 +1,52 @@
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+   
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+} 
+ 
+.first ul li{
+    list-style-type:none;
+    display: inline-block;
+display: inline;
+margin: 0 25px;
+    
+}
+.first ul li a {
+    text-decoration: none;
+   color: white;
+}
+.first i{
+    color: white;
+}
+.bg-image{
+    background-image: url(https://www.w3schools.com/w3images/chicago.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+height: 700px;
+
+}
+.bg-image .insert{
+    color: white;
+    text-align: center;
+    padding-top: 45%;
+    
+}
+.second{
+    margin: 0 20px;
+    text-align: center;
+}
+.w3-row{
+    display: flex;
+    justify-content:space-around ;
+    text-align: center;
+}
+
+
